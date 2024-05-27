@@ -1,0 +1,13 @@
+node_modules/
+.history/
+.vscode/
+
+.idea/
+
+build/
+
+
+.firebase
+yarn-error.log
+yarn.lock
+

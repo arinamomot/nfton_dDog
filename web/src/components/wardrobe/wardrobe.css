@@ -1,0 +1,13 @@
+.wardrobe-container .tabs {
+  margin-bottom: 1rem;
+}
+.wardrobe-container .cards {
+  display: flex;
+  margin: 5px;
+  max-width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+/*# sourceMappingURL=wardrobe.css.map */

@@ -1,0 +1,84 @@
+.header-wrapper {
+  color: #61DAFB;
+}
+
+.header {
+  width: 100%;
+
+  .tools {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+
+    .level {
+      display: flex;
+      align-items: center;
+      margin-left: -8px;
+
+      .value {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 36px;
+
+        .icon {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+
+    .balance {
+      display: flex;
+      margin-right: -8px;
+
+      .amount {
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 36px;
+
+        .icon {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+  }
+}
+
+.converting-window {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 30px;
+  padding: 1rem;
+  border-radius: 10px;
+
+  .converting-window__coin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    .converting-window__coin__icon {
+      margin-left: 1rem;
+
+      .icon {
+        width: 35px;
+        height: 35px;
+      }
+    }
+
+    &:last-of-type {
+      margin-bottom: 2rem;
+    }
+  }
+
+  .converting-window__arrows {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 1rem;
+    margin-right: 5px;
+  }
+}

@@ -1,0 +1,37 @@
+.marketplace-container {
+  position: relative;
+  justify-content: center;
+
+  .search {
+    z-index: 2;
+    margin: 1rem 2rem;
+    position: relative;
+    .searchInput {
+      border-radius: 5px;
+    }
+  }
+
+  .value {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+  }
+
+  .all {
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .cards {
+    position: relative;
+    display: flex;
+    z-index: 2;
+    padding: 0.5rem;
+
+    max-width: 100%;
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+}

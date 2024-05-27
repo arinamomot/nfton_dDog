@@ -1,0 +1,78 @@
+.game-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: inherit;
+  padding: 8px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.game-card .image {
+  width: calc(100% + 16px);
+  max-width: unset;
+  height: 100px;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin: -8px -8px 0;
+}
+.game-card .game-card__footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+.game-card .game-card__footer .characteristics {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.game-card .game-card__footer .characteristics .characteristic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+.game-card .game-card__footer .characteristics .characteristic *:not(:last-child) {
+  margin-right: 8px;
+}
+.game-card .game-card__footer .name {
+  font-weight: 700;
+}
+
+.game-card-modal h2, .game-card-modal h3 {
+  text-align: center;
+  margin: 10px;
+}
+.game-card-modal .modal-paper {
+  margin: 50px 30px;
+  padding: 1px;
+}
+.game-card-modal .modal-image {
+  width: 100%;
+}
+.game-card-modal .close-button {
+  position: absolute;
+  top: 62px;
+  right: 40px;
+}
+.game-card-modal .modal-characteristics {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 16px;
+  padding: 0 10px 10px;
+  justify-content: center;
+}
+.game-card-modal .modal-characteristics .modal-characteristics__item > span {
+  font-size: 14px;
+  font-weight: 700;
+}
+.game-card-modal .modal-button-container {
+  display: flex;
+  justify-content: center;
+}
+.game-card-modal .modal-button-container button {
+  margin: 10px 0 20px;
+}
+
+/*# sourceMappingURL=game_card.css.map */

@@ -1,0 +1,205 @@
+<sweet-shop>
+    <employees>
+        <employee id="1">
+            <name>Jan Urban</name>
+            <email>jan.urban@gmail.com</email>
+            <position>cashier</position>
+            <start>20-07-2016</start>
+            <end>31-10-2019</end>
+        </employee>
+        <employee id="2">
+            <name>Prokop Kraus</name>
+            <email>prokop.kraus@gmail.com</email>
+            <position>cashier</position>
+            <start>20-07-2016</start>
+            <end/>
+        </employee>
+        <employee id="3">
+            <name>Eva Havel</name>
+            <email>eva.havel@gmail.com</email>
+            <position>cleaner</position>
+            <start>20-07-2016</start>
+            <end/>
+        </employee>
+        <employee id="4">
+            <name>Arina Momot</name>
+            <email>arina.momot@gmail.com</email>
+            <position>cashier</position>
+            <start>31-08-2019</start>
+            <end/>
+        </employee>
+        <employee id="5">
+            <name>Pavel Marek</name>
+            <email>pavel.marek@gmail.com</email>
+            <position>trainee</position>
+            <start>31-05-2022</start>
+            <end/>
+        </employee>
+    </employees>
+
+    <confectioneries>
+        <confectionery code="СС132" manufactureDate="05-10-2022">
+            <name>Сarrot cake</name>
+            <description>Delicious and healthy carrot cake with sour cream</description>
+            <calories>650</calories>
+            <nutritions fat="25" carbohydrates="78" protein="4"/>
+            <allergens>
+                <allergen>Walnuts</allergen>
+                <allergen>Milk</allergen>
+                <allergen>Eggs</allergen>
+                <allergen>Soya</allergen>
+            </allergens>
+            <manufacturer>Costa</manufacturer>
+            <expiration>15-10-2022</expiration>
+            <stock>available</stock>
+            <price>129</price>
+        </confectionery>
+        <confectionery code="BB253" manufactureDate="10-10-2022">
+            <name>Banana Bread</name>
+            <description>Banana loaf bread with pecans and walnuts</description>
+            <calories>374</calories>
+            <nutritions fat="20" carbohydrates="42" protein="6"/>
+            <allergens>
+                <allergen>Wheat</allergen>
+                <allergen>Egg</allergen>
+                <allergen>Walnuts</allergen>
+                <allergen>Pecan</allergen>
+            </allergens>
+            <manufacturer>Cross Cafe</manufacturer>
+            <expiration>14-11-2022</expiration>
+            <stock>not available</stock>
+            <price>95</price>
+        </confectionery>
+        <confectionery code="BM321" manufactureDate="25-09-2022">
+            <name>Blueberry Muffin</name>
+            <description>A classic Starbucks muffin packed with blueberries, filled with a smooth blueberry filling</description>
+            <calories>394</calories>
+            <nutritions fat="18" carbohydrates="52" protein="6"/>
+            <allergens>
+                <allergen>Wheat</allergen>
+                <allergen>Oat</allergen>
+                <allergen>Egg</allergen>
+                <allergen>Milk</allergen>
+                <allergen>Soya</allergen>
+            </allergens>
+            <otc>No</otc>
+            <manufacturer>Costa</manufacturer>
+            <expiration>14-11-2022</expiration>
+            <stock>available</stock>
+            <price>75</price>
+        </confectionery>
+        <confectionery code="CHC492" manufactureDate="06-10-2022">
+            <name>Сhocolate Cookie</name>
+            <description>All butter cookie with three irresistible chocolates chunks: dark, milk and white</description>
+            <calories>377</calories>
+            <nutritions fat="21" carbohydrates="41" protein="5"/>
+            <allergens>
+                <allergen>Wheat</allergen>
+                <allergen>Egg</allergen>
+                <allergen>Milk</allergen>
+                <allergen>Soya</allergen>
+            </allergens>
+            <manufacturer>Paul</manufacturer>
+            <expiration>16-11-2022</expiration>
+            <stock>available</stock>
+            <price>59</price>
+        </confectionery>
+        <confectionery code="LL598" manufactureDate="06-10-2022">
+            <name>Lemon Loaf</name>
+            <description>A moist buttery lemon loaf cake topped with a lemon icing glaze and caramelised lemon zest</description>
+            <calories>397</calories>
+            <nutritions fat="23" carbohydrates="41" protein="6"/>
+            <allergens>
+                <allergen>Wheat</allergen>
+                <allergen>Egg</allergen>
+                <allergen>Milk</allergen>
+                <allergen>Almonds</allergen>
+            </allergens>
+            <manufacturer>Paul</manufacturer>
+            <expiration>11-12-2022</expiration>
+            <stock>available</stock>
+            <price>89</price>
+        </confectionery>
+        <confectionery code="LM698" manufactureDate="05-09-2022">
+            <name>Lemon Muffin</name>
+            <description>A classic Starbucks muffin with a lemon curd filling and topped with lemon icing</description>
+            <calories>400</calories>
+            <nutritions fat="20" carbohydrates="50" protein="5"/>
+            <allergens>
+                <allergen>Wheat</allergen>
+                <allergen>Oat</allergen>
+                <allergen>Egg</allergen>
+                <allergen>Milk</allergen>
+                <allergen>Soya</allergen>
+            </allergens>
+            <manufacturer>Starbucks</manufacturer>
+            <expiration>06-10-2022</expiration>
+            <stock>not available</stock>
+            <price>79</price>
+        </confectionery>
+        <confectionery code="CS798" manufactureDate="09-10-2022">
+            <name>Cinnamon Swirl</name>
+            <description>Sweet dough with cinnamon filling, sultanas and topped with a cream cheese style icing and orange zest</description>
+            <calories>397</calories>
+            <nutritions fat="13" carbohydrates="78" protein="11"/>
+            <allergens>
+                <allergen>Wheat</allergen>
+                <allergen>Egg</allergen>
+                <allergen>Milk</allergen>
+            </allergens>
+            <manufacturer>Cinnabon</manufacturer>
+            <expiration>17-11-2022</expiration>
+            <stock>available</stock>
+            <price>156</price>
+        </confectionery>
+    </confectioneries>
+
+
+    <receipts>
+        <receipt number="23423451" saleDate="15/10/2022 09:25:31">
+            <shop name="Sweets" address="Sinkulova 79" phone="+420769345839"/>
+            <sellerId>4</sellerId>
+            <items>
+                <item confectioneryCode="СС132">
+                    <quantity>1</quantity>
+                    <totalItemPrice>129</totalItemPrice>
+                </item>
+                <item confectioneryCode="CS798">
+                    <quantity>2</quantity>
+                    <totalItemPrice>177</totalItemPrice>
+                </item>
+            </items>
+            <totalPrice>306</totalPrice>
+        </receipt>
+        <receipt number="94753985" saleDate="11/10/2022 12:05:41">
+            <shop name="Sweets" address="Sinkulova 79" phone="+420769345839"/>
+            <sellerId>4</sellerId>
+            <items>
+                <item confectioneryCode="СС132">
+                    <quantity>2</quantity>
+                    <totalItemPrice>312</totalItemPrice>
+                </item>
+                <item confectioneryCode="BB253">
+                    <quantity>1</quantity>
+                    <totalItemPrice>95</totalItemPrice>
+                </item>
+                <item confectioneryCode="LM698">
+                    <quantity>5</quantity>
+                    <totalItemPrice>395</totalItemPrice>
+                </item>
+            </items>
+            <totalPrice>802</totalPrice>
+        </receipt>
+        <receipt number="84621792" saleDate="13/10/2022 16:10:23">
+            <shop name="Sweets" address="Sinkulova 79" phone="+420769345839"/>
+            <sellerId>5</sellerId>
+            <items>
+                <item confectioneryCode="CHC492">
+                    <quantity>10</quantity>
+                    <totalItemPrice>590</totalItemPrice>
+                </item>
+            </items>
+            <totalPrice>590</totalPrice>
+        </receipt>
+    </receipts>
+</sweet-shop>

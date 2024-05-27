@@ -1,0 +1,18 @@
+.games-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+  flex: 1 1 0;
+  gap: 8px;
+
+  .game-card {
+    width: calc(50% - 4px);
+  }
+}
+
+.games-container {
+  height: calc(100vh + 100px);
+}
+

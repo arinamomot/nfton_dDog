@@ -1,0 +1,171 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix s: <http://db.cz/sweetshop> .
+@prefix i: <http://db.cz/sweetshop/terms#> .
+
+s:employee1 
+  rdf:type i:Employee ;
+  i:id "1" ;
+  i:name [i:first "Jan" ; i:last "Urban"] ;
+  i:email "jan.urban@gmail.com" ;
+  i:position "cashier" ;
+  i:start "20-07-2016" ;
+  i:end "31-10-2019" .
+
+s:employee2 
+  rdf:type i:Employee ;
+  i:id "2" ;
+  i:name [i:first "Prokop" ; i:last "Kraus"] ;
+  i:email "prokop.kraus@gmail.com" ;
+  i:position "cashier" ;
+  i:start "20-07-2016" .
+
+s:employee3 
+  rdf:type i:Employee ;
+  i:id "3" ;
+  i:name [i:first "Eva" ; i:last "Havel"] ;
+  i:email "eva.havel@gmail.com" ;
+  i:position "cleaner" ;
+  i:start "20-07-2016" .
+
+s:employee4 
+  rdf:type i:Employee ;
+  i:id "4" ;
+  i:name [i:first "Arina" ; i:last "Momot"] ;
+  i:email "arina.momot@gmail.com" ;
+  i:position "cashier" ;
+  i:start "31-08-2019" .
+
+s:employee5 
+  rdf:type i:Employee ;
+  i:id "5" ;
+  i:name [i:first "Pavel" ; i:last "Marek"] ;
+  i:email "pavel.marek@gmail.com" ;
+  i:position "trainee" ;
+  i:start "31-05-2022" .
+
+s:confectionery1
+ rdf:type i:Confectionery;
+ i:code "СС132" ;
+ i:manufactureDate "05-10-2022" ;
+ i:name "Сarrot cake" ;
+ i:description "Delicious and healthy carrot cake with sour cream" ;
+ i:calories "650" ;
+ i:nutritions [ i:fat "25" ; i:carbohydrates "78" ; i:protein "4" ] ;
+ i:manufacturer "Costa" ;
+ i:expiration "15-11-2022" ;
+ i:stock "available" ;
+ i:price "129" .
+
+s:confectionery2
+ rdf:type i:Confectionery;
+ i:code "BB253" ;
+ i:manufactureDate "10-10-2022" ;
+ i:name "Banana Bread" ;
+ i:description "Banana loaf bread with pecans and walnuts" ;
+ i:calories "374" ;
+ i:nutritions [ i:fat "20" ; i:carbohydrates "42" ; i:protein "6" ] ;
+ i:manufacturer "Cross Cafe" ;
+ i:expiration "14-11-2022" ;
+ i:stock "not available" ;
+ i:price "95" .
+
+s:confectionery3
+ rdf:type i:Confectionery;
+ i:code "BM321" ;
+ i:manufactureDate "25-09-2022" ;
+ i:name "Blueberry Muffin" ;
+ i:description "A classic Starbucks muffin packed with blueberries, filled with a smooth blueberry filling" ;
+ i:calories "394" ;
+ i:nutritions [ i:fat "18" ; i:carbohydrates "52" ; i:protein "6" ] ;
+ i:manufacturer "Costa" ;
+ i:expiration "14-11-2022" ;
+ i:stock "available" ;
+ i:price "75" .
+
+s:confectionery4
+ rdf:type i:Confectionery;
+ i:code "CHC492" ;
+ i:manufactureDate "06-10-2022" ;
+ i:name "Сhocolate Cookie" ;
+ i:description "All butter cookie with three irresistible chocolates chunks: dark, milk and white" ;
+ i:calories "377" ;
+ i:nutritions [ i:fat "21" ; i:carbohydrates "41" ; i:protein "5" ] ;
+ i:manufacturer "Paul" ;
+ i:expiration "16-11-2022" ;
+ i:stock "available" ;
+ i:price "59" .
+
+s:confectionery5
+ rdf:type i:Confectionery;
+ i:code "LL598" ;
+ i:manufactureDate "06-10-2022" ;
+ i:name "Lemon Loaf" ;
+ i:description "A moist buttery lemon loaf cake topped with a lemon icing glaze and caramelised lemon zest" ;
+ i:calories "397" ;
+ i:nutritions [ i:fat "23" ; i:carbohydrates "41" ; i:protein "6" ] ;
+ i:manufacturer "Paul" ;
+ i:expiration "11-12-2022" ;
+ i:stock "available" ;
+ i:price "89" .
+
+s:confectionery6
+ rdf:type i:Confectionery;
+ i:code "LM698" ;
+ i:manufactureDate "05-09-2022" ;
+ i:name "Lemon Muffin" ;
+ i:description "A classic Starbucks muffin with a lemon curd filling and topped with lemon icing" ;
+ i:calories "400" ;
+ i:nutritions [ i:fat "20" ; i:carbohydrates "50" ; i:protein "5" ] ;
+ i:manufacturer "Starbucks" ;
+ i:expiration "06-11-2022" ;
+ i:stock "not available" ;
+ i:price "79" .
+
+s:confectionery7
+ rdf:type i:Confectionery;
+ i:code "CS798" ;
+ i:manufactureDate "09-10-2022" ;
+ i:name "Cinnamon Swirl" ;
+ i:description "Sweet dough with cinnamon filling, sultanas and topped with a cream cheese style icing and orange zest" ;
+ i:calories "397" ;
+ i:nutritions [ i:fat "13" ; i:carbohydrates "78" ; i:protein "11" ] ;
+ i:manufacturer "Cinnabon" ;
+ i:expiration "17-11-2022" ;
+ i:stock "available" ;
+ i:price "156" .
+
+s:receipt1
+ rdf:type i:Receipt ;
+ i:number "23423451" ;
+ i:saleDate "15/10/2022 09:25:31" ;
+ i:shopName "Sweets" ;
+ i:shopAddress "Sinkulova 79" ;
+ i:shopPhone "+420769345839" ;
+ i:seller s:employee4 ;
+ i:item [ i:confectionery s:confectionery1 ; i:quantity "1" ; i:totalItemPrice "129" ; ],
+        [ i:confectionery s:confectionery7 ; i:quantity "2" ; i:totalItemPrice "177" ; ] ;
+ i:totalPrice "306" .
+
+s:receipt2
+ rdf:type i:Receipt ;
+ i:number "94753985" ;
+ i:saleDate "11/10/2022 12:05:41" ;
+ i:shopName "Sweets" ;
+ i:shopAddress "Sinkulova 79" ;
+ i:shopPhone "+420769345839" ;
+ i:seller s:employee4 ;
+ i:item [ i:confectionery s:confectionery1 ; i:quantity "2" ; i:totalItemPrice "312" ; ],
+        [ i:confectionery s:confectionery2 ; i:quantity "1" ; i:totalItemPrice "95" ; ],
+        [ i:confectionery s:confectionery6 ; i:quantity "5" ; i:totalItemPrice "395" ; ] ;
+ i:totalPrice "802" .
+
+s:receipt3
+ rdf:type i:Receipt ;
+ i:number "84621792" ;
+ i:saleDate "13/10/2022 16:10:23" ;
+ i:shopName "Sweets" ;
+ i:shopAddress "Sinkulova 79" ;
+ i:shopPhone "+420769345839" ;
+ i:seller s:employee5 ;
+ i:item [ i:confectionery s:confectionery4 ; i:quantity "10" ; i:totalItemPrice "590" ; ] ;
+ i:totalPrice "590" .

@@ -1,0 +1,12 @@
+
+.control-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  margin-top: auto;
+  .button {
+    font-size: 2rem !important;
+    border-radius: 10px !important;
+  }
+}

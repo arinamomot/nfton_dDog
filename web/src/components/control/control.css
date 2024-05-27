@@ -1,0 +1,13 @@
+.control-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  margin-top: auto;
+}
+.control-container .button {
+  font-size: 2rem !important;
+  border-radius: 10px !important;
+}
+
+/*# sourceMappingURL=control.css.map */
